@@ -73,8 +73,6 @@ bool CUDA_INIT(void)
 	return true;
 }
 
-
-
 int parameters_main(int argc, char* argv[])
 {
 	if (CUDA_INIT() == true)
