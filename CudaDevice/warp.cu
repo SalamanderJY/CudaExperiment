@@ -59,7 +59,7 @@ int warp_main(int argc, char* argv[])
 	for (int i = 0; i<Arraysize; i++)
 	{
 		// output the paramters, ps:cpu_clock[i] - cpu_clock[0] is represented of the difference between the run time of each thread and start thread,it is easy to calculate and observe.
-		printf("Calculated Thread: %3u- Block: %3u- Warp: %3u- Thread: %3u- Time: %3u\n", cpu_calc[i], cpu_block[i], cpu_warp[i], cpu_thread[i], cpu_clock[i] - cpu_clock[0]);
+		printf("Calculated Thread: %3u- Block: %3u- Warp: %3u- Thread: %3u- Time: %3u\n", cpu_calc[i], cpu_block[i], cpu_warp[i], cpu_thread[i], cpu_clock[i] - cpu_clock[(i / thread_nums) * thread_nums]);
 	}
 
 	delete cpu_block;
