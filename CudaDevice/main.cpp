@@ -8,10 +8,12 @@ extern int vectorsum_main(int argc, char* argv[]);
 
 extern int warp_main(int argc, char* argv[]);
 
+extern int odis_main(int argc, char* argv[]);
+
 int main(int argc, char* argv[])
 {
 	//return demo_main(argc, argv);
 	//return parameters_main(argc, argv);
 	//return vectorsum_main(argc, argv);
-	return warp_main(argc, argv);
+	return odis_main(argc, argv);
 }
