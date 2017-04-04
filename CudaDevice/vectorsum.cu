@@ -11,7 +11,7 @@ __global__ void VectorSum(int *result, const int *vector_a, const int *vector_b)
 {
 	int i = threadIdx.x;
 	result[i] = vector_a[i] + vector_b[i];
-	printf("call kernel function.\n");
+	printf("%d : call kernel function.\n", i);
 }
 
 int vectorsum_main(int argc, char* argv[])
