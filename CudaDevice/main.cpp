@@ -12,6 +12,8 @@ extern int atomic_main(int argc, char* argv[]);
 
 extern int odis_main(int argc, char* argv[]);
 
+extern int matrix_main(int argc, char* argv[]);
+
 int main(int argc, char* argv[])
 {
 	//return demo_main(argc, argv);
