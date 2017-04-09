@@ -1,5 +1,5 @@
 // cuda auto generate function with vector demo.
-extern int demo_main(int argc, char* argv[]);
+extern int test_main(int argc, char* argv[]);
 
 // print device parameters of cuda.
 extern int parameters_main(int argc, char* argv[]);
@@ -16,10 +16,10 @@ extern int matrix_main(int argc, char* argv[]);
 
 int main(int argc, char* argv[])
 {
-	//return demo_main(argc, argv);
+	return test_main(argc, argv);
 	//return parameters_main(argc, argv);
 	//return vectorsum_main(argc, argv);
 	//return atomic_main(argc, argv);
-	return odis_main(argc, argv);
+	//return matrix_main(argc, argv);
 
 }
