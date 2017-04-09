@@ -24,7 +24,7 @@ bool CUDA_INIT(void)
 		{
 			printf("device properties is :\n"
 				"\t ASCII string identifying device is %s\n"
-				"\t Global memory available on device in bytes (2G) is %lld\n"
+				"\t Global memory available on device in bytes (4G) is %lld\n"
 				"\t Shared memory available per block in bytes is %lld\n"
 				"\t 32-bit registers available per block is %d\n"
 				"\t Warp size in threads is %d\n"
