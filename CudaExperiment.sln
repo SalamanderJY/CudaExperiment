@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaDevice", "CudaDevice\Cu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "matrixMul_nvrtc", "MatrixMul\matrixMul_nvrtc_vs2013.vcxproj", "{997E0757-EA74-4A4E-A0FC-47D8C8831A15}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "warpShow", "WarpShow\WarpShow.vcxproj", "{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -47,6 +49,20 @@ Global
 		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|Win32.ActiveCfg = Release|x64
 		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|x64.ActiveCfg = Release|x64
 		{997E0757-EA74-4A4E-A0FC-47D8C8831A15}.Release|x64.Build.0 = Release|x64
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|ARM.ActiveCfg = Debug|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|Win32.Build.0 = Debug|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|x64.ActiveCfg = Debug|x64
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Debug|x64.Build.0 = Debug|x64
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|ARM.ActiveCfg = Release|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|Win32.ActiveCfg = Release|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|Win32.Build.0 = Release|Win32
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|x64.ActiveCfg = Release|x64
+		{6F80E73A-6ACF-4408-B796-99A4DF3BD3BA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
