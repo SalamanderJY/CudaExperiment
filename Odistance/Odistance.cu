@@ -9,8 +9,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-
 #include <time.h>
+
 #define BLOCK_SIZE 16
 
 /*
@@ -85,7 +85,8 @@ __global__ void gpu_square_matrix_mult(int *d_a, int *d_b, int *d_result, int n)
 		}
 
 		idx = (sub * BLOCK_SIZE + threadIdx.y) * n + col;
-		if (idx >= n*n)
+
+		if (idx >= n * n)
 		{
 			tile_b[threadIdx.y][threadIdx.x] = 0;
 		}
@@ -174,7 +175,6 @@ return: none
 int main(int argc, char const *argv[])
 {
 	int m, n, k;
-	double start1, stop1, durationTime1;
 
 	/* Fixed seed for illustration */
 	srand(3333);
@@ -246,14 +246,19 @@ int main(int argc, char const *argv[])
 	cudaEventElapsedTime(&gpu_elapsed_time_ms, start, stop);
 	printf("Time elapsed on matrix multiplication of %dx%d . %dx%d on GPU: %f ms.\n\n", m, n, n, k, gpu_elapsed_time_ms);
 
+
 	// start the CPU version
-	start1 = clock();
+	double start_cpu, stop_cpu;
+
+	start_cpu = clock();
 
 	cpu_matrix_mult(h_a, h_b, h_cc, m, n, k);
 
-	stop1 = clock();
-	cpu_elapsed_time_ms = ((double)(stop1 - start1));
-	printf("Time elapsed on matrix multiplication of %dx%d . %dx%d on CPU: %f s.\n\n", m, n, n, k, cpu_elapsed_time_ms);
+	stop_cpu = clock();
+
+	cpu_elapsed_time_ms = ((double)(stop_cpu - start_cpu));
+
+	printf("Time elapsed on matrix multiplication of %dx%d . %dx%d on CPU: %f ms.\n\n", m, n, n, k, cpu_elapsed_time_ms);
 
 	// validate results computed by GPU
 	int all_ok = 1;
