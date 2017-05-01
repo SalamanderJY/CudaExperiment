@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WarpShow", "WarpShow\WarpSh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Odistance", "Odistance\Odistance.vcxproj", "{1D04CDE9-74FB-4D60-8533-A458B3B275D9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonteCarlo", "MonteCarlo\MonteCarlo.vcxproj", "{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -63,6 +65,20 @@ Global
 		{1D04CDE9-74FB-4D60-8533-A458B3B275D9}.Release|Win32.Build.0 = Release|Win32
 		{1D04CDE9-74FB-4D60-8533-A458B3B275D9}.Release|x64.ActiveCfg = Release|x64
 		{1D04CDE9-74FB-4D60-8533-A458B3B275D9}.Release|x64.Build.0 = Release|x64
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|ARM.ActiveCfg = Debug|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|Win32.Build.0 = Debug|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|x64.ActiveCfg = Debug|x64
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Debug|x64.Build.0 = Debug|x64
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|ARM.ActiveCfg = Release|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|Win32.ActiveCfg = Release|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|Win32.Build.0 = Release|Win32
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|x64.ActiveCfg = Release|x64
+		{CF1F957F-FF0B-45C3-A1B0-14453DF6D569}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
