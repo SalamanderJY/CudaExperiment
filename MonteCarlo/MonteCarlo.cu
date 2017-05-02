@@ -155,6 +155,7 @@ int main_monte(int argc, char* argv[]) {
 	sum2 = 0.0;
 	for (int i = 0; i < NPATH; i++) {
 		sum1 += h_v[i];
+		//printf("%f\n", h_v[i]);
 		sum2 += h_v[i] * h_v[i];
 	}
 
