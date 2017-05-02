@@ -34,10 +34,10 @@ __global__ void pathcalc(float *d_z, float *d_v)
 	// move array pointers to correct position
 
 	// version 1
-	d_z = d_z + threadIdx.x + 2 * N*blockIdx.x*blockDim.x;
+	//d_z = d_z + threadIdx.x + 2 * N*blockIdx.x*blockDim.x;
 
 	// version 2
-	// d_z = d_z + 2*N*threadIdx.x + 2*N*blockIdx.x*blockDim.x;
+	d_z = d_z + 2 * N * threadIdx.x + 2 * N * blockIdx.x * blockDim.x;
 
 	d_v = d_v + threadIdx.x + blockIdx.x*blockDim.x;
 
@@ -49,15 +49,15 @@ __global__ void pathcalc(float *d_z, float *d_v)
 	for (int n = 0; n < N; n++) {
 		y1 = (*d_z);
 		// version 1
-		d_z += blockDim.x;      // shift pointer to next element
+		//d_z += blockDim.x;      // shift pointer to next element
 		// version 2
-		// d_z += 1; 
+		d_z += 1; 
 
 		y2 = rho*y1 + alpha*(*d_z);
 		// version 1
-		d_z += blockDim.x;      // shift pointer to next element
+		//d_z += blockDim.x;      // shift pointer to next element
 		// version 2
-		// d_z += 1; 
+		d_z += 1; 
 
 		s1 = s1*(con1 + con2*y1);
 		s2 = s2*(con1 + con2*y2);
@@ -76,7 +76,7 @@ __global__ void pathcalc(float *d_z, float *d_v)
 // Main program
 ////////////////////////////////////////////////////////////////////////
 
-int main(int argc, char **argv){
+int main_monte(int argc, char* argv[]) {
 
 	int     NPATH = 960000, h_N = 100;
 	float   h_T, h_r, h_sigma, h_rho, h_alpha, h_dt, h_con1, h_con2;
@@ -175,4 +175,6 @@ int main(int argc, char **argv){
 
 	cudaDeviceReset();
 	system("pause");
+
+	return 0;
 }
