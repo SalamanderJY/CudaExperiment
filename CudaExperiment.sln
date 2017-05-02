@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonteCarlo", "MonteCarlo\Mo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laplace", "Laplace\Laplace.vcxproj", "{714A6675-26EE-4CF2-97CB-C451BDBCE8F1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlternatingDirectionImplicit", "AlternatingDirectionImplicit\AlternatingDirectionImplicit.vcxproj", "{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -95,6 +97,20 @@ Global
 		{714A6675-26EE-4CF2-97CB-C451BDBCE8F1}.Release|Win32.Build.0 = Release|Win32
 		{714A6675-26EE-4CF2-97CB-C451BDBCE8F1}.Release|x64.ActiveCfg = Release|x64
 		{714A6675-26EE-4CF2-97CB-C451BDBCE8F1}.Release|x64.Build.0 = Release|x64
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|ARM.ActiveCfg = Debug|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|Win32.Build.0 = Debug|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|x64.ActiveCfg = Debug|x64
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Debug|x64.Build.0 = Debug|x64
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|ARM.ActiveCfg = Release|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|Win32.ActiveCfg = Release|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|Win32.Build.0 = Release|Win32
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|x64.ActiveCfg = Release|x64
+		{A1D0EE88-B267-44BD-A5B3-113A52F02BC9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
