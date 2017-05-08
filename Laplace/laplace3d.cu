@@ -24,7 +24,7 @@
 ////////////////////////////////////////////////////////////////////////
 
 #define BLOCK_X 32
-#define BLOCK_Y 4
+#define BLOCK_Y 6
 
 
 __global__ void GPU_laplace3d(int NX, int NY, int NZ, float *d_u1, float *d_u2)

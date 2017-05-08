@@ -21,8 +21,8 @@
 // define kernel block size for 
 ////////////////////////////////////////////////////////////////////////
 
-#define BLOCK_X 32
-#define BLOCK_Y 8
+#define BLOCK_X 64
+#define BLOCK_Y 6
 // device code
 
 
