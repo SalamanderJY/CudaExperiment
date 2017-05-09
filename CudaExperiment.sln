@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlternatingDirectionImplici
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reduction", "Reduction\Reduction.vcxproj", "{EC25E017-A76C-4176-821B-EA6192D0F29D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reduction_AnyBlock", "Reduction_AnyBlock\Reduction_AnyBlock.vcxproj", "{D6F37CFA-264E-48B1-B488-AFEDA102A796}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -127,6 +129,20 @@ Global
 		{EC25E017-A76C-4176-821B-EA6192D0F29D}.Release|Win32.Build.0 = Release|Win32
 		{EC25E017-A76C-4176-821B-EA6192D0F29D}.Release|x64.ActiveCfg = Release|x64
 		{EC25E017-A76C-4176-821B-EA6192D0F29D}.Release|x64.Build.0 = Release|x64
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|ARM.ActiveCfg = Debug|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|Win32.Build.0 = Debug|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|x64.ActiveCfg = Debug|x64
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Debug|x64.Build.0 = Debug|x64
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|ARM.ActiveCfg = Release|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|Win32.ActiveCfg = Release|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|Win32.Build.0 = Release|Win32
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|x64.ActiveCfg = Release|x64
+		{D6F37CFA-264E-48B1-B488-AFEDA102A796}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
