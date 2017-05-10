@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reduction_MultiBlock", "Red
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reduction_Laplace", "Reduction_Laplace\Reduction_Laplace.vcxproj", "{03DF9537-A108-4E76-92B5-5D7A75EB6F81}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reduction_Odistance", "Reduction_Odistance\Reduction_Odistance.vcxproj", "{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -175,6 +177,20 @@ Global
 		{03DF9537-A108-4E76-92B5-5D7A75EB6F81}.Release|Win32.Build.0 = Release|Win32
 		{03DF9537-A108-4E76-92B5-5D7A75EB6F81}.Release|x64.ActiveCfg = Release|x64
 		{03DF9537-A108-4E76-92B5-5D7A75EB6F81}.Release|x64.Build.0 = Release|x64
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|ARM.ActiveCfg = Debug|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|Win32.Build.0 = Debug|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|x64.ActiveCfg = Debug|x64
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Debug|x64.Build.0 = Debug|x64
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|ARM.ActiveCfg = Release|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|Win32.ActiveCfg = Release|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|Win32.Build.0 = Release|Win32
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|x64.ActiveCfg = Release|x64
+		{C5C8CCE2-4DAC-4D80-B215-69633BC8861D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
